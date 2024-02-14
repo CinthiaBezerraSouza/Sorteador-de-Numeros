@@ -21,7 +21,7 @@ function sortear(){
         numero= obterNumeroAleatorio(de,ate);
 
         while (sorteados.includes(numero)){
-            mumero = obterNumeroAleatorio(de,ate);
+            numero = obterNumeroAleatorio(de,ate);
         }
         
         sorteados.push(numero);
